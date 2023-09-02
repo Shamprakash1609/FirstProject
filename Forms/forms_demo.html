@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.html" method="GET" enctype="multipart/form-data">
+        <div>
+            <!-- <label for="Username">Username</label> -->
+            <input type="text" name="Username" id="Username" placeholder="Username" maxlength="11" required> 
+        </div>
+        <div>
+            <!-- <label for = "password">Password</label> -->
+            <input type="password" name ="password" placeholder="Password" required> 
+        </div>
+        <div>
+            <input type="number" name = "Year" placeholder="Year" min="2000" max="2023" step="2" required>
+        </div>
+        <div>
+            <label for = "Date of Birth">Date of Birth</label> 
+            <input type="date" name = "Date of Birth" placeholder="Date of Birth" min="2000" max="2023" step="2" required>
+        </div>
+        <div>
+            <label for = "about">About</label>
+            <textarea name="about" cols="40" rows="5" >About you...</textarea>
+        </div>
+        <div>
+            <label for="code 141">code 141</label>
+            <input type="checkbox" name="code 141">
+        </div>
+        <div>
+            <label>Gender</label><br>
+            <input type="radio" name = "gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            
+            <input type="radio" name = "gender" id="female" value ="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <select name="state" id="state">
+                <option value = "Tamilnadu">Tamilnadu</option>
+                <option value = "Andhrapradesh">Andhrapradesh</option>
+                <option value = "Mumbai">Mumbai</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">Titanic</label>
+            <input type="file" id="file" name = "file">
+        </div>
+        <button type = "submit" >Sign Up</button>
+        <button type="reset">Reset</button>
+
+    
+    </form>
+</body>
+</html>
